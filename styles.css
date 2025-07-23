@@ -95,9 +95,15 @@ body{
 .introduction_button >.download {
     background-color: var(--cyan600);
 }
+.introduction_button >.download:hover {
+    background-color: #71C0D4;
+}
 .question {
     background-color: var(--purple600);
     width: 10.063rem;
+}
+.question:hover {
+    background-color: #B18BDD;
 }
 .download_version_cyan{
     color: var(--cyan300);
@@ -165,6 +171,9 @@ body{
 }
 footer > .button {
     background-color: var(--purple600);
+}
+footer > .button:hover {
+    background-color: #B18BDD;
 }
 .download_version_purple {
     color: var(--purple300);
